@@ -1,6 +1,5 @@
 // Your code here
 const table = document.getElementsByTagName('table')[0]
-
 const makeRow = () => {
   const row = document.createElement('tr')
 
@@ -9,6 +8,5 @@ const makeRow = () => {
   table.appendChild(row)
 }
 
-makeRow()
-makeRow()
-makeRow()
+const addRowBtn = document.getElementById('add-row')
+addRowBtn.addEventListener('click', makeRow)
