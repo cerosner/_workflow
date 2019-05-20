@@ -1,0 +1,31 @@
+body {
+  background-color: cornsilk;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  box-shadow: 5px 10px;
+  margin: 100px 250px;
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+div#input {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+ul li {
+  color: black;
+}
+
+ul li:nth-child(3n+0) {
+  color: red;
+}
